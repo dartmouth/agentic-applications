@@ -1,0 +1,14 @@
+[project]
+name = "agentic-applications"
+version = "0.1.0"
+description = "Materials for the Reproducible Research workshop 'Beyond Chatbots: Intro to Agentic Applications'"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain-dartmouth>=0.2.14",
+    "langgraph>=0.4.3",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "yfinance>=0.2.61",
+]
