@@ -5,11 +5,15 @@ description = "Materials for the Reproducible Research workshop 'Beyond Chatbots
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "grandalf>=0.8",
     "ipykernel>=6.29.5",
+    "langchain-community>=0.3.24",
     "langchain-core>=0.3.59",
     "langchain-dartmouth>=0.2.14",
     "langgraph>=0.4.3",
     "matplotlib>=3.10.3",
     "pandas>=2.2.3",
+    "rich>=14.0.0",
+    "wikipedia>=1.4.0",
     "yfinance>=0.2.61",
 ]
