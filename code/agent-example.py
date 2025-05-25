@@ -19,8 +19,6 @@ def manual_agent():
     # Create the agent
     model = ChatDartmouthCloud(
         model_name="openai.gpt-4.1-mini-2025-04-14",
-        inference_server_url="https://chat-dev.dartmouth.edu/api/",
-        dartmouth_chat_api_key=os.environ["DARTMOUTH_CHAT_DEV_API_KEY"],
     )
 
     model = model.bind_tools(tools)
@@ -49,8 +47,6 @@ def automated_agent():
     # Create the agent
     model = ChatDartmouthCloud(
         model_name="openai.gpt-4.1-mini-2025-04-14",
-        inference_server_url="https://chat-dev.dartmouth.edu/api/",
-        dartmouth_chat_api_key=os.environ["DARTMOUTH_CHAT_DEV_API_KEY"],
     )
 
     model = model.bind_tools(tools)
